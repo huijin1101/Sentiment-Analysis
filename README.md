@@ -19,7 +19,7 @@ This project demonstrates a comprehensive sentiment analysis pipeline leveraging
 <img src="images/SA_metho3.png" alt="ML Pipeline Development" width="500" height="400" />
 
 ### 4. Export and Visualization
-<img src="images/SA_metho4.png" alt="Export and Visualization" width="200" height="200" />
+<img src="images/SA_metho4.png" alt="Export and Visualization" width="300" height="200" />
 
 ## Key Highlights
 1.  **Distributed Data Processing**:
