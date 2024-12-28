@@ -22,14 +22,15 @@ This project demonstrates a comprehensive sentiment analysis pipeline leveraging
 ## Key Highlights
 1.  **Distributed Data Processing**:
     - Utilized Spark on Databricks to seamlessly process and analyze large datasets directly from S3, ensuring scalability and efficiency.
-3. **Comprehensive Data Preprocessing**: Implemented advanced text standardization techniques, ensuring high-quality inputs for machine learning models.
-4. **Feature Engineering and EDA**:
+2. **Comprehensive Data Preprocessing**:
+   - Implemented advanced text standardization techniques, ensuring high-quality inputs for machine learning models.
+3. **Feature Engineering and EDA**:
    - Introduced new features (`weekday`, `hourtime`, `words_count`) to enhance model accuracy.
    - Conducted thorough data exploration to uncover meaningful mutual relationships.
-5. **Scalable ML Pipeline**:
+4. **Scalable ML Pipeline**:
    - Developed a robust ML pipeline integrating feature transformations and predictive models.
    - Achieved 80% accuracy with Logistic Regression.
-6. **End-to-End Workflow**:
+5. **End-to-End Workflow**:
    - Automated the sentiment prediction workflow from data ingestion to visualization.
    - Integrated predictions with AWS services (S3, Athena and QuickSight) for real-time insights via interactive dashboards.
 
