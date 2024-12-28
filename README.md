@@ -11,38 +11,13 @@ This project demonstrates a comprehensive sentiment analysis pipeline leveraging
 
 ## Methodology
 ### 1. Data Preparation and Cleaning
-- **Data Loading**: Imported tweet data from the S3 bucket into a Spark DataFrame in Databricks.
-- **Sentiment Labeling**: Added a `sentiment_label` column using TextBlob.
-- **Data Cleaning**:
-  - Selected relevant columns (`tweet`, `created_at`, `sentiment_label`).
-  - Removed missing values and duplicates.
-  - Standardized text by:
-    - Removing punctuation, special characters (e.g., RT, @mentions, hashtags), URLs, numbers, and excess white spaces.
-    - Applying lemmatization and converting text to lowercase.
-### 2. Feature Engineering
-- **Data Splitting**: 
-  - 80% training and 20% testing.
-- **New Features**:
-  - Extracted `weekday` and `hourtime` from `created_at`.
-  - Computed `words_count` from `tweet`.
-### 3. Exploratory Data Analysis (EDA)
-- Explored relationships between features and sentiment labels:
-  - Distribution of `sentiment_label` by `weekday`.
-  - Effect of `words_count` on `sentiment_label`.
-  - Sentiment variation across `hourtime`.
-### 4. ML Pipeline Development
-- **Feature Transformation**:
-  - Applied `Tokenizer`, `StopWordsRemover`, `CountVectorizer`, `IDF`, and `VectorAssembler`.
-- **Model Training**:
-  - Experimented with Logistic Regression and Random Forest models.
-- **Pipeline Workflow**:
-  - Fitted the pipeline model on training data.
-  - Validated the pipeline on the testing dataset.
-  - Selected the best model based on performance.
-### 5. Export and Visualization
-- **Export Predictions**: Saved results to the S3 bucket.
-- **Dashboard Preparation**: Created a queryable table in AWS Athena.
-- **Visualization**: Designed interactive dashboards in AWS QuickSight to showcase sentiment insights.
+![Data Preparation and Cleaning](images/SA_metho1.png)
+### 2. Feature Engineering and Exploratory Data Analysis (EDA)
+![Feature Engineering and EDA](images/SA_metho2.png)
+### 3. ML Pipeline Development
+![ML Pipeline Development](images/SA_metho3.png)
+### 4. Export and Visualization
+![Export and Visualization](images/SA_metho4.png)
 
 ## Key Highlights
 1.  **Distributed Data Processing**: Utilized Spark on Databricks to seamlessly process and analyze large datasets directly from S3, ensuring scalability and efficiency.
@@ -59,8 +34,12 @@ This project demonstrates a comprehensive sentiment analysis pipeline leveraging
 
 ## Results
 - Best model: Logistic Regression achieving **80% accuracy**.
-- Interactive dashboard enabled efficient exploration of sentiment trends across time and other variables.
-
+- Interactive dashboard enabled efficient exploration of sentiment trends across time and other variables:
+  ![Dashboard](SA_visu.png)
+  - 0, 1, 2 represent Negative, Neutral, Positive respectively.
+  - The first row of images shows the distribution of sentiments in the dataset, highlighting the proportions of each sentiment category.
+  - The first image in the second row illustrates the relationship between tweet word count and sentiment. It reveals that neutral tweets tend to have fewer words compared to negative and positive sentiments.
+  - The second image in the second row depicts the proportion of predicted sentiments within each actual sentiment category, providing insights into the prediction accuracy for each sentiment class.. 
 ## Conclusion
 This project highlights the power of distributed computing with Spark for large-scale sentiment analysis. By combining Databricks' capabilities with AWS services, we delivered a scalable, end-to-end pipeline from data ingestion to visualization. The approach can be extended to various NLP tasks, making it a valuable template for real-world applications.
 
