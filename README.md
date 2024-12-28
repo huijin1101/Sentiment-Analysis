@@ -13,11 +13,13 @@ This project demonstrates a comprehensive sentiment analysis pipeline leveraging
 ### 1. Data Preparation and Cleaning
 ![Data Preparation and Cleaning](images/SA_metho1.png)
 ### 2. Feature Engineering and Exploratory Data Analysis (EDA)
-![Feature Engineering and EDA](images/SA_metho2.png)
+<img src="images/SA_metho2.png" alt="Feature Engineering and EDA" width="800" height="300" />
+
 ### 3. ML Pipeline Development
-![ML Pipeline Development](images/SA_metho3.png)
+<img src="images/SA_metho3.png" alt="ML Pipeline Development" width="500" height="400" />
+
 ### 4. Export and Visualization
-![Export and Visualization](images/SA_metho4.png)
+<img src="images/SA_metho4.png" alt="Export and Visualization" width="300" height="200" />
 
 ## Key Highlights
 1.  **Distributed Data Processing**:
@@ -35,8 +37,8 @@ This project demonstrates a comprehensive sentiment analysis pipeline leveraging
 ## Results
 - Best model: Logistic Regression achieving **80% accuracy**.
 - Interactive dashboard enabled efficient exploration of sentiment trends across time and other variables:
-  ![Dashboard](SA_visu.png)
-  - 0, 1, 2 represent Negative, Neutral, Positive respectively.
+  ![Dashboard](images/SA_visu.png)
+  - 0, 1, 2 represent Negative, Neutral, Positive sentiment respectively.
   - The first row of images shows the distribution of sentiments in the dataset, highlighting the proportions of each sentiment category.
   - The first image in the second row illustrates the relationship between tweet word count and sentiment. It reveals that neutral tweets tend to have fewer words compared to negative and positive sentiments.
   - The second image in the second row depicts the proportion of predicted sentiments within each actual sentiment category, providing insights into the prediction accuracy for each sentiment class.. 
