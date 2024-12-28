@@ -5,7 +5,7 @@
 - [Chapter 3: Add sentiment_label column by using textblob](https://nbviewer.org/github/huijin1101/Sentiment-Analysis/blob/main/Scripts/bigdataproject_HuijinCao.ipynb#Chapter-3:-Add-sentiment_label-column-by-using-textblob)
 - [Chapter 4: Cleaning and Preprocessing](https://nbviewer.org/github/huijin1101/Sentiment-Analysis/blob/main/Scripts/bigdataproject_HuijinCao.ipynb#Chapter-4:-Cleaning-and-Preprocessing)
 - [Chapter 5: Data split before feature engineering](https://nbviewer.org/github/huijin1101/Sentiment-Analysis/blob/main/Scripts/bigdataproject_HuijinCao.ipynb#Chapter-5:-Data-split-before-feature-engineering)
-- [Chapter 6: Feature Engineering](https://nbviewer.org/github/huijin1101/Sentiment-Analysis/blob/main/Scripts/bigdataproject_HuijinCao.ipynb#Chapter-6:-Feature Engineering)
+- [Chapter 6: Feature Engineering](https://nbviewer.org/github/huijin1101/Sentiment-Analysis/blob/main/Scripts/bigdataproject_HuijinCao.ipynb#Chapter-6:-Feature-Engineering)
   - [6.1: Create new features](https://nbviewer.org/github/huijin1101/Sentiment-Analysis/blob/main/Scripts/bigdataproject_HuijinCao.ipynb#6.1:-Create-new-features)
   - [6.2 EDA (Exploratory data analysis)](https://nbviewer.org/github/huijin1101/Sentiment-Analysis/blob/main/Scripts/bigdataproject_HuijinCao.ipynb#6.2-EDA-(Exploratory-data-analysis))
 - [Chapter 7: Putting a pipeline](https://nbviewer.org/github/huijin1101/Sentiment-Analysis/blob/main/Scripts/bigdataproject_HuijinCao.ipynb#Chapter-7:-Putting-a-pipeline)
