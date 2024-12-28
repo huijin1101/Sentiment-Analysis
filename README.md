@@ -35,7 +35,7 @@ This project demonstrates a comprehensive sentiment analysis pipeline leveraging
 ## Results
 - Best model: Logistic Regression achieving **80% accuracy**.
 - Interactive dashboard enabled efficient exploration of sentiment trends across time and other variables:
-  ![Dashboard](SA_visu.png)
+  ![Dashboard](images/SA_visu.png)
   - 0, 1, 2 represent Negative, Neutral, Positive respectively.
   - The first row of images shows the distribution of sentiments in the dataset, highlighting the proportions of each sentiment category.
   - The first image in the second row illustrates the relationship between tweet word count and sentiment. It reveals that neutral tweets tend to have fewer words compared to negative and positive sentiments.
