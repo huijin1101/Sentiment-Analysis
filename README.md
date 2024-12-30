@@ -11,7 +11,7 @@ This project demonstrates a comprehensive sentiment analysis pipeline leveraging
 
 ## Methodology
 ### 1. Data Preparation and Cleaning
-<img src='images/SA_metho1.png' alt='Data Preparation and Cleaning' width='1500' height='200'>
+<img src='images/SA_metho1.png' alt='Data Preparation and Cleaning' width='1600' height='200'>
 ### 2. Feature Engineering and Exploratory Data Analysis (EDA)
 <img src="images/SA_metho2.png" alt="Feature Engineering and EDA" width="800" height="300" />
 
